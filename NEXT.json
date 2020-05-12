@@ -1,0 +1,40 @@
+{
+   "abstract" : "Memory-efficient approximate frequency count.",
+   "bugtracker" : "https://github.com/sekia/Algorithm-LossyCount/issues",
+   "builder" : "next",
+   "builder_API_version" : "1",
+   "license" : "mit",
+   "maintainers" : [
+      "Koichi SATOH <sekia@cpan.org>"
+   ],
+   "name" : "Algorithm-LossyCount",
+   "primary" : "Algorithm::LossyCount",
+   "provides" : {
+      "Algorithm::LossyCount" : {
+         "file" : "lib/Algorithm/LossyCount.pm",
+         "version" : "0.03"
+      },
+      "Algorithm::LossyCount::Entry" : {
+         "file" : "lib/Algorithm/LossyCount/Entry.pm",
+         "version" : 0
+      }
+   },
+   "recommends_runtime" : {},
+   "repository" : "git://github.com/sekia/Algorithm-LossyCount.git",
+   "requires_build" : {
+      "List::Util" : 0,
+      "Test::Exception::LessClever" : 0,
+      "Test::More" : 0,
+      "v5.10" : 0
+   },
+   "requires_develop" : {},
+   "requires_runtime" : {
+      "Carp" : 0,
+      "POSIX" : 0,
+      "perl" : "v5.10.0",
+      "v5.10" : 0
+   },
+   "source" : "PAUSE",
+   "version" : "0.03"
+   "xs" : 0,
+}
